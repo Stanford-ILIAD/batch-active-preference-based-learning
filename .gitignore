@@ -1,1 +1,5 @@
-ctrl_samples/
+ctrl_samples/driver.npz
+ctrl_samples/lunarlandercontinuous-v2.npz
+ctrl_samples/mountaincarcontinuous-v0.npz
+ctrl_samples/swimmer.npz
+ctrl_samples/tosser.npz
