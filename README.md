@@ -21,7 +21,7 @@ For the details and positive integer parameters K, N, M, b, B; we refer to the p
 You should run the codes in the following order:
 
 ### Sampling the input space
-This is the preprocessing step. It is not interactive and necessary only if you will use batch active preference-based learning. For non-batch version and random querying, you can skip this step.
+This is the preprocessing step, so you need to run it only once (subsequent runs will overwrite for each task). It is not interactive and necessary only if you will use batch active preference-based learning. For non-batch version and random querying, you can skip this step.
 
 You simply run
 ```python
