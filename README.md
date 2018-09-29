@@ -1,7 +1,7 @@
 This code learns reward functions from human preferences in various tasks by actively generating batches of scenarios and querying a human expert.
 
-Companion code to CoRL 2018 paper:
-E Bıyık, D Sadigh. "Batch Active Preference-Based Learning of Reward Functions". Conference on Robot Learning (CoRL), Zurich, Switzerland, Oct. 2018.
+Companion code to CoRL 2018 paper:  
+E Bıyık, D Sadigh. **"Batch Active Preference-Based Learning of Reward Functions"**. *Conference on Robot Learning (CoRL)*, Zurich, Switzerland, Oct. 2018.
 
 ## Dependencies
 You need to have the following libraries with [Python3](http://www.python.org/downloads):
