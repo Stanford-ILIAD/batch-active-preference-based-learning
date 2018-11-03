@@ -26,7 +26,7 @@ class Sampler(object):
     @property
     def y(self):
         return self.yvar.get_value()
-    @A.setter
+    @y.setter
     def y(self, value):
         if len(value)==0:
             self.yvar.set_value(np.zeros((0, 1)))
