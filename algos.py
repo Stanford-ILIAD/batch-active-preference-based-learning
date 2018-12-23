@@ -54,7 +54,7 @@ def select_top_candidates(simulation_object, w_samples, B):
     inputs_set = np.zeros(shape=(0,2*z))
     psi_set = np.zeros(shape=(0,d))
     f_values = np.zeros(shape=(0))
-    data = np.load('ctrl_w_samples/' + simulation_object.name + '.npz')
+    data = np.load('ctrl_samples/' + simulation_object.name + '.npz')
     inputs_set = data['inputs_set']
     psi_set = data['psi_set']
     f_values = func_psi(psi_set, w_samples)
