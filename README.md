@@ -1,18 +1,18 @@
 This code learns reward functions from human preferences in various tasks by actively generating batches of scenarios and querying a human expert.
 
-Companion code to CoRL 2018 paper:  
-E Bıyık, D Sadigh. **"Batch Active Preference-Based Learning of Reward Functions"**. *Conference on Robot Learning (CoRL)*, Zurich, Switzerland, Oct. 2018.
+Companion code to [CoRL 2018 paper](https://arxiv.org/abs/1810.04303):  
+E Bıyık, D Sadigh. **"[Batch Active Preference-Based Learning of Reward Functions](https://arxiv.org/abs/1810.04303)"**. *Conference on Robot Learning (CoRL)*, Zurich, Switzerland, Oct. 2018.
 
 ## Dependencies
 You need to have the following libraries with [Python3](http://www.python.org/downloads):
 - [MuJoCo 1.50](http://www.mujoco.org/index.html)
-- NumPy
+- [NumPy](https://www.numpy.org/)
 - [OpenAI Gym](https://gym.openai.com)
-- pyglet
+- [pyglet](https://bitbucket.org/pyglet/pyglet/wiki/Home)
 - PYMC
-- Scikit-learn
-- SciPy
-- theano
+- [Scikit-learn](https://scikit-learn.org)
+- [SciPy](https://www.scipy.org/)
+- [theano](http://deeplearning.net/software/theano/)
 
 ## Running
 Throughout this demo,
